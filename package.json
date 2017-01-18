@@ -1,6 +1,6 @@
 {
     "name": "jdbc-metadata",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "JDBC Metadata",
     "license": "MIT",
     "main": "index.js",
@@ -8,9 +8,6 @@
         "name": "Ruben Garcia",
         "email": "rubenjgarciab@gmail.com",
         "url": "https://github.com/rubenjgarcia"
-    },
-    "engines": {
-        "node": ">=0.10.0"
     },
     "scripts": {
         "test": "mocha"
@@ -23,7 +20,7 @@
         "jdbc", "database metadata", "metadata"
     ],
     "dependencies": {
-        "java": "~0.4.2",
+        "java": "~0.8.0",
         "underscore.string": "2.3.3"
     },
     "devDependencies": {
